@@ -1,1 +1,1 @@
-# merchshop
+# merch shop
