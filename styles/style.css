@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "sans-serif-regular";
+    src: url("../fonts/basically_a_sans_serif/fonts/ttf/BasicallyASansSerif-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "opticubalibretwo";
+    src: url("../fonts/OPTICubaLibreTwo/OPTICubaLibreTwo.otf") format("opentype")
+}
+
+h1 {
+    font-family: "opticubalibretwo";
+    font-size: 32px;
+}
+
+p {
+    font-family: "sans-serif-regular";
+    font-size: 13.3px;
+    color:#959595;
+}
+
+.note {
+    height: 170px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.note h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.note p {
+    margin-bottom: 10px;
+}
+
+.note #designer_name {
+    font-size: 16px;
+    color: #9a9a9a;
+}
