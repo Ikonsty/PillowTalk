@@ -19,6 +19,85 @@ p {
     color:#959595;
 }
 
+.header {
+    background-color: #e9e9e9
+}
+
+.cta {
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    background-color: #82F4D3;
+    font-family: "sans-serif-regular";
+    font-weight: 700;
+    position: relative;
+    z-index: 2
+}
+
+.main_shoe {
+    background-color: #e9e9e9
+}
+
+.arrival_div {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.arrival_img {
+    height: 100%;
+    display: inline-block;
+}
+
+.arr_ref_div {
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.arr_inner {
+    height: 100%;
+    display: inline-block;
+    width: 1px;
+    vertical-align: middle;
+}
+
+.arr_ref {
+    vertical-align: middle;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #fff;
+    font-size: 12px;
+    /*display: none;*/
+}
+
+.arr_ref:hover {
+    vertical-align: middle;
+    color: rgba(144, 243, 215, 0.5);
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #fff;
+    font-size: 12px;
+    display: none;
+}
+
+.socials {
+    width: 70px;
+    height: 150px;
+    /*left: 1000px;*/
+    position: relative;
+    /*float: right;*/
+    background-color: red;
+}
+
 .note {
     height: 170px;
     text-align: center;
