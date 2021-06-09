@@ -100,27 +100,6 @@ p {
     background-color: red;
 }
 
-.note {
-    height: 170px;
-    text-align: center;
-    background-color: #f8f8f8;
-}
-
-.note h1 {
-    font-size: 32px;
-    margin-bottom: 40px;
-    color: black;
-}
-
-.note p {
-    margin-bottom: 10px;
-}
-
-.note #designer_name {
-    font-size: 16px;
-    color: #9a9a9a;
-}
-
 .fall_collection_section {
     padding: 8rem 10rem;
     display: flex;
@@ -168,4 +147,29 @@ p {
     -moz-box-shadow: 8rem 5rem 0rem rgba(117, 215, 188, 0.56);
     -webkit-box-shadow: 8rem 5rem 0rem rgba(117, 215, 188, 0.56);
     -khtml-box-shadow: 8rem 5rem 0rem rgba(117, 215, 188, 0.56);
+}
+
+.quote_section {
+    padding: 8rem 10rem;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.quote_section > h1 {
+    font-size: 32px;
+    margin: 3rem 0rem;
+    color: black;
+}
+
+.quote_section > p {
+    line-height: 1.5rem;
+}
+
+.quote_section_author {
+    margin-top: 1.5rem;
+    font-size: 16px;
+    color: #9a9a9a;
+}
+.quote_section_author_profession {
+    color: #75d7bc;
+    font-size: 16px;
 }
