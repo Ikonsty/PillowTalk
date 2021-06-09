@@ -434,7 +434,7 @@ li {
 }
 
 .fall_collection_section {
-    padding: 8rem 10rem;
+    padding: 8rem 0rem;
     display: flex;
 }
 
@@ -484,7 +484,7 @@ li {
 }
 
 .quote_section {
-    padding: 8rem 10rem;
+    padding: 8rem 0rem;
     text-align: center;
     background-color: #f8f8f8;
 }
