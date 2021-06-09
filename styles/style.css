@@ -72,13 +72,13 @@ ol, li {
   }
 
 .wrapper {
-    /* margin-right: auto; 
-    margin-left:  auto; 
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
   
-    max-width: 1080px; 
+    max-width: 1080px; /* 2 */
   
-    padding-right: 10px; 
-    padding-left:  10px;  */
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
 }
 
 
@@ -368,8 +368,25 @@ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='ht
 
 
 
-/* Arrival */
+/*sneakers showcase*/
+.showcase {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
 
+.showcase_arrival {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.floatshowcase {
+    display: flex;
+}
+
+.offer {
+    display:inline-block;
+    position: relative;
+}
 
 .arrival_div {
     width: 200px;
@@ -401,23 +418,28 @@ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='ht
 
 .arr_ref {
     vertical-align: middle;
+    color: rgba(144, 243, 215, 0.5);
     color: #fff;
     text-decoration: none;
     padding: 8px;
     border: 1px solid #fff;
+    background-color: rgb(144, 243, 215);
     font-size: 12px;
-    /*display: none;*/
+    opacity: 0;
 }
 
 .arr_ref:hover {
     vertical-align: middle;
     color: rgba(144, 243, 215, 0.5);
+    color: #fff;
     text-decoration: none;
     padding: 8px;
     border: 1px solid #fff;
+    background-color: rgb(144, 243, 215);
     font-size: 12px;
-    display: none;
+    opacity: 0.7;
 }
+/*sneakers showcase  END*/
 
 .socials {
     width: 70px;
