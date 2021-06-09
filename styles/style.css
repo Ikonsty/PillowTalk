@@ -509,6 +509,60 @@ li {
     font-size: 16px;
 }
 
+
+.latest_blog_section {
+	margin-bottom: 10rem;
+    display: flex;
+}
+.latest_blog_header {
+	text-align: center;
+	margin-top: 8rem;
+	margin-bottom: 3rem;
+	font-size: 32px;
+}
+.latest_blog_right_side > h3 {
+	padding-left: 2rem;
+	font-weight: bold;
+    margin: 1.5rem 0rem;
+    font-size: 19px;
+}
+.latest_blog_left_side {
+    flex: 1;
+}
+.latest_blog_right_side {
+    flex: 1;
+}
+.latest_blog_right_side > p {
+	padding-left: 2rem;
+    margin: 1rem 0rem;
+    line-height: 1.5rem;
+}
+.latest_blog_right_side > a {
+    text-decoration: none;
+    font-family: "opticubalibretwo";
+    color: initial;
+    pointer-events: auto;
+    cursor: pointer;
+
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left: 22rem;
+
+    display: inline-block;
+    background-color: #75d7bc;
+
+    border: none;
+}
+.latest_blog_left_side > img {
+    height: 25rem;
+    margin: auto auto;
+    display: block;
+    box-shadow: 8rem 5rem 0rem rgba(117, 215, 188, 0.56);
+    -moz-box-shadow: 8rem 5rem 0rem rgba(117, 215, 188, 0.56);
+    -webkit-box-shadow: 8rem 5rem 0rem rgba(117, 215, 188, 0.56);
+    -khtml-box-shadow: 8rem 5rem 0rem rgba(117, 215, 188, 0.56);
+}
 /* Footer */
 
 .footer-distributed {
