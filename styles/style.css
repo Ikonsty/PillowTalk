@@ -447,17 +447,18 @@ li {
     padding-top: 5%;
 }
 
-.fall_collection_left_side > h1 {
+.fall_collection_left_side > h1{
     margin: 1.5rem 0rem;
     font-size: 25px;
 }
 
-.fall_collection_left_side > p {
+.fall_collection_left_side > p{
     margin: 1rem 0rem;
     line-height: 1.5rem;
 }
 
-.fall_collection_left_side > a {
+.fall_collection_left_side > a,
+.first_shoe > a{
     text-decoration: none;
     font-family: "opticubalibretwo";
     color: initial;
